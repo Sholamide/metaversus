@@ -7,7 +7,7 @@ import COVER from "../../../public/cover.png";
 import STAMP from "../../../public/stamp.png";
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section className='sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6'>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
